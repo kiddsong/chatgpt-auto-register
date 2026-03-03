@@ -30,6 +30,9 @@
 - ✅ 支持多线程并发注册——只测试了单线程，多线程会怎样无法保证
 - ✅ 自动保存注册成功的账号信息
 
+我的理解，这个项目是完全模拟人类操作浏览器的方式来进行注册的，所以注册过程中会自动打开浏览器，且浏览器不能关闭。
+实测一次注册流程大约需要耗时2分钟。
+
 ---
 
 ## 🔧 环境要求
@@ -59,7 +62,7 @@ pip install -r requirements.txt
 ### 1. 克隆或下载项目
 
 ```bash
-git clone https://github.com/yourusername/chatgpt-auto-register.git
+git clone https://github.com/kiddsong/chatgpt-auto-register.git
 cd chatgpt-auto-register
 ```
 
